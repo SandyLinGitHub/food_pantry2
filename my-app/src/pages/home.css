@@ -1,0 +1,97 @@
+.home-page {
+    padding: 20px;
+  }
+  
+  .image-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .image-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .image-section p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .image-section .btn-primary,
+  .image-section .btn-secondary {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    color: white;
+  }
+  
+  /* Latest News Section */
+  .latest-news {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .latest-news h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .news-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-card p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Current Stats Section */
+  .current-stats {
+    text-align: center;
+  }
+  
+  .current-stats h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .stat-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .stat-item h3 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item p {
+    font-size: 1.1em;
+    color: #666;
+  }

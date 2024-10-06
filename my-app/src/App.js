@@ -13,13 +13,44 @@ import VolunteersPage from './pages/volunteers';
 import RecipePage from './pages/recipe';
 import FeedbackPage from './pages/feedback';
 import SupportFPPage from './pages/support_pantry';
+import headerPic from './assets/header.png';
+import footerPic from './assets/footer.png';
+import foodPantryImage1 from './assets/sandy.JPG'
+import foodPantryImage2 from './assets/ramen.JPG'
+import foodPantryImage3 from './assets/penne.png'
 
 function App() {
   return (
     <BrowserRouter>
+      <header className="header">
+        <img src={headerPic} alt="Header" className="header-image" />
+      </header>
+    
+      <div className="image-container">
+        <img src={foodPantryImage1} alt="Food Pantry 1" className="food-pantry-image" />
+        <img src={foodPantryImage2} alt="Food Pantry 2" className="food-pantry-image" />
+        <img src={foodPantryImage3} alt="Food Pantry 3" className="food-pantry-image" />
+        <div className="overlay-text">
+          <h1>Coach Mac Food Pantry</h1>
+        </div>
+      </div>
+    
+      <div className="main-layout">
+        {/* Sidebar */}
+        <nav className="sidebar">
+          <ul>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/recipe">Recipe</Link></li>
+            <li><Link to="/stats">Stats</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/news">News</Link></li>
+            <li><Link to="/history">History</Link></li>
+            <li><Link to="/volunteers">Volunteers</Link></li>
+            <li><Link to="/contact_us">Contact Us</Link></li>
+          </ul>
+        </nav>
+      </div>
 
-    
-    
       <nav>
         <Link to="/about">About</Link>
         <Link to="/resources">Resources</Link>
@@ -39,6 +70,10 @@ function App() {
         <Route path="/contact_us" element={<ContactPage />} />
         <Route path="/feedback" element={<FeedbackPage />} />
       </Routes>
+
+      <footer className="footer">
+        <img src={footerPic} alt="Footer" className="footer-image" />
+      </footer>
     </BrowserRouter>
   );
 }

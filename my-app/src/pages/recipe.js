@@ -1,5 +1,11 @@
 import React from 'react';
 import './recipe.css';
+import pasta from '../assets/pasta.jpg'
+//https://cookidoo.thermomix.com/recipes/recipe/en-US/r69338 
+import fried_rice from '../assets/mushroom_fried_rice.jpg'
+//https://www.kitchenathoskins.com/mushroom-fried-rice/
+import lentil from '../assets/lentil_salad.png'
+//https://downshiftology.com/recipes/lentil-salad/
 
 function RecipePage() {
   return (
@@ -25,7 +31,7 @@ function RecipePage() {
 
         <div className="recipe-grid">
           <div className="recipe-card">
-            <div className="recipe-image"></div>
+            <img src={fried_rice} alt="mushroom fried rice" className="recipe-image" />
             <h3>Recipe 1</h3>
             <p>
               Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nulla nec ut commodo.
@@ -33,7 +39,7 @@ function RecipePage() {
             <button className="primary-btn">Learn more</button>
           </div>
           <div className="recipe-card">
-            <div className="recipe-image"></div>
+            <img src={pasta} alt="pasta" className="recipe-image" />
             <h3>Recipe 2</h3>
             <p>
               Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nulla nec ut commodo.
@@ -41,7 +47,7 @@ function RecipePage() {
             <button className="primary-btn">Learn more</button>
           </div>
           <div className="recipe-card">
-            <div className="recipe-image"></div>
+            <img src={lentil} alt="lentil salad" className="recipe-image" />
             <h3>Recipe 3</h3>
             <p>
               Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nulla nec ut commodo.

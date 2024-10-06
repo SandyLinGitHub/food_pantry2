@@ -1,0 +1,64 @@
+.feedback-page {
+    margin: 20px;
+  }
+  
+  .feedback-page h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-page p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .feedback-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feedback-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .feedback-form label {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .feedback-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #0056b3;
+  }
+  

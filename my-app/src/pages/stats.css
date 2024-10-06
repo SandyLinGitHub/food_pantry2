@@ -1,0 +1,82 @@
+/* Main Stats Section */
+.main-stat {
+    margin-bottom: 40px;
+  }
+  
+  .main-stat h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .main-stat p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Stat Cards */
+  .stat-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stat-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-card h3 {
+    font-size: 2em;
+    color: #d35400;
+    margin-bottom: 10px;
+  }
+  
+  .stat-card p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  /* Stat Grid */
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .stat-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-item h3 {
+    font-size: 1.5em;
+    color: #d35400;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .stat-item button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .stat-item button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -59,7 +59,7 @@ function App() {
 
       <div className="content">
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
         <Route path="/how_to_support_the_Coach_Mac_Food_Pantry" element={<SupportFPPage />} />
         <Route path="/schedule" element={<SchedulePage />} /> 
         <Route path="/resources" element={<ResourcePage />} />

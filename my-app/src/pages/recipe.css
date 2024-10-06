@@ -1,0 +1,54 @@
+/* Main Layout Styling */
+.main-layout {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* Ensure it covers the full height of the viewport */
+}
+
+.sidebar {
+  width: 20%; /* Sidebar will take 20% of the screen */
+  background-color: #f8f8f8;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar ul li a.active,
+.sidebar ul li a:hover {
+  font-weight: bold;
+}
+
+.content {
+  flex-grow: 1; /* Content area will take the remaining space */
+  padding: 20px;
+}
+
+.featured-recipe,
+.recipe-list,
+.share-recipe {
+  margin-bottom: 40px;
+}
+
+.featured-recipe {
+  text-align: center;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}

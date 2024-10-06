@@ -106,3 +106,24 @@
   padding: 20px;
   overflow-y: auto;
 }
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  font-weight: normal;
+  color: #000; /* Set your desired color */
+  display: block;
+  padding: 10px 15px;
+}
+
+.sidebar-link:hover {
+  font-weight: bold;
+}
+
+.sidebar-link.active {
+  font-weight: bold;
+}

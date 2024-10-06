@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import HomePage from './pages/home';
 import ContactPage from './pages/contact_us';
 import SchedulePage from './pages/schedule';
@@ -39,24 +39,26 @@ function App() {
         {/* Sidebar */}
         <nav className="sidebar">
           <ul>
-            <li><Link to="/home">Home</Link></li>
-            <li><Link to="/recipe">Recipe</Link></li>
-            <li><Link to="/stats">Stats</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/news">News</Link></li>
-            <li><Link to="/history">History</Link></li>
-            <li><Link to="/volunteers">Volunteers</Link></li>
-            <li><Link to="/contact_us">Contact Us</Link></li>
+            <li><NavLink to="/home" activeClassName="active" className="sidebar-link">Home</NavLink></li>
+            <li><NavLink to="/recipe" activeClassName="active" className="sidebar-link">Recipe</NavLink></li>
+            <li><NavLink to="/stats" activeClassName="active" className="sidebar-link">Stats</NavLink></li>
+            <li><NavLink to="/about" activeClassName="active" className="sidebar-link">About</NavLink></li>
+            <li><NavLink to="/news" activeClassName="active" className="sidebar-link">News</NavLink></li>
+            <li><NavLink to="/history" activeClassName="active" className="sidebar-link">History</NavLink></li>
+            <li><NavLink to="/volunteers" activeClassName="active" className="sidebar-link">Volunteers</NavLink></li>
+            <li><NavLink to="/contact_us" activeClassName="active" className="sidebar-link">Contact Us</NavLink></li>
           </ul>
         </nav>
-      </div>
+        
 
-      <nav>
+      {/* <nav>
         <Link to="/about">About</Link>
         <Link to="/resources">Resources</Link>
         <Link to="/recipe">Recipe</Link>
         <Link to="/contact_us">Contact Us</Link>
-      </nav>
+      </nav> */}
+
+      <div className="content">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/how_to_support_the_Coach_Mac_Food_Pantry" element={<SupportFPPage />} />
@@ -70,6 +72,8 @@ function App() {
         <Route path="/contact_us" element={<ContactPage />} />
         <Route path="/feedback" element={<FeedbackPage />} />
       </Routes>
+      </div>
+      </div>
 
       <footer className="footer">
         <img src={footerPic} alt="Footer" className="footer-image" />

@@ -1,5 +1,7 @@
 import React from 'react';
 import './stats.css';
+import total_visitor from '../assets/total_visitors.png'
+
 function StatsPage() {
   return (
     <div className="stats-page">
@@ -29,6 +31,7 @@ function StatsPage() {
       {/* Individual Stat Cards */}
       <div className="stat-grid">
         <div className="stat-item">
+          <img src={total_visitor} alt="total visitor since 2021" className="stat-item" />
           <h3>Stat 1</h3>
           <p>
             Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nulla nec ut commodo.

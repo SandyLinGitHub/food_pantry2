@@ -77,14 +77,26 @@
   max-width: 400px;       /* Optional: Adjust the width of the text box */
 }
 
+.main-layout {
+  display: flex;           /* Use flexbox to create a layout with the sidebar and content next to each other */
+  width: 100vw;            /* Full viewport width */
+}
 
-/* Sidebar styling */
 .sidebar {
-  width: 250px;
+  width: 10%;              /* Sidebar takes 10% of the viewport width */
   background-color: #f4f4f4;
   padding: 20px;
   position: sticky;
+  top: 0;
 }
+
+.content {
+  width: 90%;              /* Content takes 90% of the viewport width */
+  padding: 20px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
 
 .sidebar ul {
   list-style-type: none;

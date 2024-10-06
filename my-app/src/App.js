@@ -49,8 +49,7 @@ function App() {
             <li><NavLink to="/contact_us" activeClassName="active" className="sidebar-link">Contact Us</NavLink></li>
           </ul>
         </nav>
-        
-
+      
       {/* <nav>
         <Link to="/about">About</Link>
         <Link to="/resources">Resources</Link>

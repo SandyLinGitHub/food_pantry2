@@ -47,6 +47,7 @@ function App() {
             <li><NavLink to="/history" activeClassName="active" className="sidebar-link">History</NavLink></li>
             <li><NavLink to="/volunteers" activeClassName="active" className="sidebar-link">Volunteers</NavLink></li>
             <li><NavLink to="/contact_us" activeClassName="active" className="sidebar-link">Contact Us</NavLink></li>
+            <li><NavLink to="/feedback" activeClassName="active" className="sidebar-link">Feedback</NavLink></li>
           </ul>
         </nav>
       

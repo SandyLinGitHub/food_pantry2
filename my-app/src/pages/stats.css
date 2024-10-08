@@ -52,8 +52,11 @@
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+  }
 
-    
+  .stat_pic {
+    width: 10px;
   }
   
   .stat-item h3 {

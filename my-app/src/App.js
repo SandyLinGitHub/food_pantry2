@@ -8,7 +8,7 @@ import SchedulePage from './pages/schedule';
 import NewsPage from './pages/news';
 import ResourcePage from './pages/resources';
 import HistoryPage from './pages/history';
-import StatsPage from './pages/stats';
+//import StatsPage from './pages/stats';
 import VolunteersPage from './pages/volunteers';
 import RecipePage from './pages/recipe';
 import FeedbackPage from './pages/feedback';
@@ -41,7 +41,6 @@ function App() {
           <ul>
             <li><NavLink to="/home" activeClassName="active" className="sidebar-link">Home</NavLink></li>
             <li><NavLink to="/recipe" activeClassName="active" className="sidebar-link">Recipe</NavLink></li>
-            <li><NavLink to="/stats" activeClassName="active" className="sidebar-link">Stats</NavLink></li>
             <li><NavLink to="/about" activeClassName="active" className="sidebar-link">About</NavLink></li>
             <li><NavLink to="/news" activeClassName="active" className="sidebar-link">News</NavLink></li>
             <li><NavLink to="/history" activeClassName="active" className="sidebar-link">History</NavLink></li>
@@ -65,7 +64,6 @@ function App() {
         <Route path="/schedule" element={<SchedulePage />} /> 
         <Route path="/resources" element={<ResourcePage />} />
         <Route path="/recipe" element={<RecipePage />} />
-        <Route path="/stats" element={<StatsPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/history" element={<HistoryPage />} />
         <Route path="/volunteers" element={<VolunteersPage />} />

@@ -14,15 +14,15 @@ function StatsPage() {
         </p>
         <div className="stat-cards">
           <div className="stat-card">
-            <h3>681</h3>
+            <h3>#</h3>
             <p>Inital amount of visitors in 2021</p>
           </div>
           <div className="stat-card">
-            <h3>700%+</h3>
-            <p>Since the opening of the food pantry in 2021, we've seen a increase of more than 700 percent of visitors.</p>
+            <h3>#</h3>
+            <p>Since the opening of the food pantry in 2021, we've seen a increase of more than # percent of visitors.</p>
           </div>
           <div className="stat-card">
-            <h3>5713</h3>
+            <h3>#</h3>
             <p>Current amount of visitors in 2024</p>
           </div>
         </div>

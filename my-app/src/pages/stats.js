@@ -1,6 +1,5 @@
 import React from 'react';
 import './stats.css';
-import total_visitor from '../assets/total_visitors.png'
 
 function StatsPage() {
   return (
@@ -37,7 +36,6 @@ function StatsPage() {
           </p>
           <button>Get Started</button>
           <button>Learn more</button>
-          <img src={total_visitor} alt="total visitor since 2021" classname="stat_pic"/>
         </div>
         <div className="stat-item">
           <h3>Stat 2</h3>
